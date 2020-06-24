@@ -1,0 +1,10 @@
+.info-user__title{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.info-user__title p{
+    color: var(--text-color--blue);
+    font-weight: bold;
+    font-size: 1.5em;
+}
