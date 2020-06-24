@@ -1,0 +1,46 @@
+.project{
+    background-color: var(--background-color--light);
+    padding-bottom: 10px;
+}
+
+.project__title{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.project__title p {
+    color: var(--text-color--blue);
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.project__description{
+    padding: 0.5px;
+    text-align: center;
+}
+
+.project__description p {
+    font-size: 1.1em;
+}
+
+.project__images{
+    text-align: center;
+}
+
+.project__images p{
+    color: var(--text-color--blue);
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.project__imgs{
+    display: flex;
+    padding: 0px 10px;
+}
+
+.project__img{
+    border: 2px solid var(--text-color--blue);
+    height: 120px;
+    width: 220px;
+    margin: 0px 20px 30px 0px;
+}
