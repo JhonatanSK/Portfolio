@@ -8,3 +8,30 @@
     font-weight: bold;
     font-size: 1.5em;
 }
+
+.info-user__photo{
+    border: 1px solid var(--text-color--blue);
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 0px auto;
+    /* background-image: url("../../assets/jhon.png"); */
+    
+}
+
+.info-user__photo img{
+    border-radius: 150px;
+    border: 1px solid #0e9aef24;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.info-user__description{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.info-user__description p {
+    font-size: 1.1em;
+}
