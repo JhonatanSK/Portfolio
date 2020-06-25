@@ -1,0 +1,32 @@
+.course__title{
+    /* border-top: 1px solid lightgray; */
+    text-align: center;
+    padding-top: 5px;
+}
+
+.course__title p{
+    color: var(--text-color--blue);
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: -10px;
+}
+
+.course__name{
+    text-align: center;
+}
+
+.course__name p{
+    color: #5d5a5a;
+    font-size: 1em;
+    margin-bottom: 0px;
+    padding-top: 18px;
+}
+
+.course__description{
+    padding: 0px 25px;
+}
+
+.course__description p {
+    color: #5d5a5a;
+    font-size: 0.9em;
+}
