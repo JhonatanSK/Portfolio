@@ -1,0 +1,30 @@
+.services{
+    background-color: var(--background-color--light);
+    padding: 20px 0px;
+}
+
+.services__title{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.services__title p{
+    color: var(--text-color--blue);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.services__name{
+    text-align: center;
+}
+
+.services__name p{
+    color: #0575e6;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.services__mobile{
+    display: block;
+    margin: -500px 0;
+}
