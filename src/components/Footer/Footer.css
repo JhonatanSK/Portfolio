@@ -1,3 +1,15 @@
 .footer{
-    height: 400px;
+    /* height: 400px; */
+    background-color: #171616;
+    text-align: center;
+}
+
+.footer p{
+    padding: 20px;
+    color: #fff;
+    margin: 0px;
+}
+
+.footer p span{
+    color: var(--text-color--blue);
 }

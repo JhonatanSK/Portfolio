@@ -4,6 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <div className= "footer">
+      <p>Developed by <span>Jhonatan da Costa</span></p>
     </div>
   );
 }
