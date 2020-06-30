@@ -1,7 +1,10 @@
+.experiences{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
 .experiences__title{
-    border-top: 1px solid lightgray;
     text-align: center;
-    padding-top: 5px;
 }
 
 .experiences__title p{
@@ -15,7 +18,7 @@
 }
 
 .experiences__name p{
-    color: #5d5a5a;
+    color: var(--text-color--blue);
     font-size: 1em;
 }
 
@@ -26,4 +29,9 @@
 .experiences__description p {
     color: #5d5a5a;
     font-size: 0.9em;
+}
+.experiences__description p span{
+    color: var(--text-color--blue);
+    font-size: 1.05em;
+    font-weight: bold;
 }
