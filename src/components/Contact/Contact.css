@@ -67,10 +67,21 @@ body{
     color: #fff;
     padding:0px 30px;
     font-size: 1.1em;
+
 }
 
 .contact__message a{
     color: var(--text-color--blue);
     text-decoration: none;
     font-size: 1.2em;
+}
+@media (min-width: 768px){
+    .contact__message{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact__message a{
+        padding: 0px 5px;
+    }
 }
