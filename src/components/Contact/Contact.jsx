@@ -8,7 +8,7 @@ function Contact() {
     let gmail = "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=jhonatandacosta0509@gmail.com&tf=1";
     let whatsapp = "https://api.whatsapp.com/send?phone=5511997111581";
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
         <div className="contact__title">
             <p>Contact</p>
         </div>
@@ -27,7 +27,7 @@ function Contact() {
             </div>
         </div>
             <p className="contact__message">
-                If you want to send a message contact us via <a href={gmail} target="_blank">Gmail</a> or <a href={whatsapp} target="_blank">Whatsapp</a>
+                If you want to send a message contact me via <a href={gmail} target="_blank">Gmail</a> or <a href={whatsapp} target="_blank">Whatsapp</a>
             </p>
     </div>
   );
