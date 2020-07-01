@@ -7,64 +7,64 @@ import server from '../../assets/server.json';
 
 function Services() {
     return (
-        <div className="services">
+        <div className="services" id="services">
             <div className="services__title">
                 <p>Services</p>
             </div>
             <div className="services__name">
-                <p>Front-End Applications</p>
-                <Lottie 
-                    options={{
-                        loop: true,
-                        autoplay: true,
-                        animationData: mobileDesktop,
-                        rendererSettings: {
-                            preserveAspectRatio: 'xMidYMid slice',
-                        }
-                    }}
-                    heigth={200}
-                    width={200}
-                />
-                <p>Back-End Applications</p>
-                <Lottie 
-                    options={{
-                        loop: true,
-                        autoplay: true,
-                        animationData: server,
-                        rendererSettings: {
-                            preserveAspectRatio: 'xMidYMid slice',
-                        }
-                    }}
-                    heigth={200}
-                    width={200}
-                />
-                <p>Mobile Applications</p>
-                {/* <Lottie
-                    options={{
-                        loop: true,
-                        autoplay: true,
-                        animationData: mobile,
-                        rendererSettings: {
-                            preserveAspectRatio: 'xMidYMid slice',
-                        }
-                    }}
-                    heigth={300}
-                    width={300}
-                /> */}
-                <img src={require('../../assets/mobile-gray.gif')} alt="Mobile" />
-                <p>Chatbots</p>
-                <Lottie 
-                    options={{
-                        loop: true,
-                        autoplay: true,
-                        animationData: mobileDesktop,
-                        rendererSettings: {
-                            preserveAspectRatio: 'xMidYMid slice',
-                        }
-                    }}
-                    heigth={200}
-                    width={200}
-                />
+                <div className="service">
+                    <p className="service__title">Front-End Applications</p>
+                    <Lottie 
+                        options={{
+                            loop: true,
+                            autoplay: true,
+                            animationData: mobileDesktop,
+                            rendererSettings: {
+                                preserveAspectRatio: 'xMidYMid slice',
+                            }
+                        }}
+                        heigth={200}
+                        width={200}
+                    />
+                    <p className="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus veniam quisquam sint labore. Praesentium cum minima, facere consectetur nisi nulla ipsam excepturi. Atque quidem cum deleniti tempore quo possimus.</p>
+                </div>
+                <div className="service">
+                    <p className="service__title">Back-End Applications</p>
+                    <Lottie 
+                        options={{
+                            loop: true,
+                            autoplay: true,
+                            animationData: server,
+                            rendererSettings: {
+                                preserveAspectRatio: 'xMidYMid slice',
+                            }
+                        }}
+                        heigth={200}
+                        width={200}
+                    />
+                    <p className="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus veniam quisquam sint labore. Praesentium cum minima, facere consectetur nisi nulla ipsam excepturi. Atque quidem cum deleniti tempore quo possimus.</p>
+                </div>
+                <div className="service">
+                    <p className="service__title">Mobile Applications</p>
+                    <img src={require('../../assets/mobile-gray.gif')} alt="Mobile" />   
+                    <p className="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus veniam quisquam sint labore. Praesentium cum minima, facere consectetur nisi nulla ipsam excepturi. Atque quidem cum deleniti tempore quo possimus.</p>
+                </div>
+                <div className="service">
+                    <p className="service__title">Chatbots</p>
+                    <Lottie 
+                        options={{
+                            loop: true,
+                            autoplay: true,
+                            animationData: mobileDesktop,
+                            rendererSettings: {
+                                preserveAspectRatio: 'xMidYMid slice',
+                            }
+                        }}
+                        heigth={200}
+                        width={200}
+                    />
+                    <p className="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus veniam quisquam sint labore. Praesentium cum minima, facere consectetur nisi nulla ipsam excepturi. Atque quidem cum deleniti tempore quo possimus.</p>
+                </div>
             </div>
 
         </div>

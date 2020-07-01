@@ -18,13 +18,15 @@
     text-align: center;
 }
 
-.services__name p{
+.services__name .service__title{
     color: #0575e6;
     font-size: 1.2em;
     font-weight: bold;
 }
 
-.services__mobile{
-    display: block;
-    margin: -500px 0;
+.service__text{
+    color: #5d5a5a;
+    font-size: 1em;
+    margin: 25px 0px;
+    padding: 0px 20px;
 }
