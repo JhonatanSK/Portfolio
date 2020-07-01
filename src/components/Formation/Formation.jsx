@@ -3,7 +3,7 @@ import './Formation.css';
 
 function Formation() {
     return (
-        <div className="formation">
+        <div className="formation" id="formation">
             <div className="formation__title">
                 <p>Academic Formation</p>
             </div>

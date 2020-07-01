@@ -1,11 +1,11 @@
 .formation{
     background-color: var(--background-color--light);
-    padding: 20px 0px;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
 
 .formation__title{
     text-align: center;
-    /* padding-top: 5px; */
 }
 
 .formation__title p{
@@ -19,7 +19,7 @@
 }
 
 .formation__name p{
-    color: #5d5a5a;
+    color: var(--text-color--blue);
     font-size: 1em;
 }
 
@@ -43,8 +43,9 @@
 }
 
 .formation__description-name{
-    color: #373636;
+    color: var(--text-color--blue);
     font-size: 1em;
     margin-bottom: 0px;
     padding-top: 18px;
+    
 }
