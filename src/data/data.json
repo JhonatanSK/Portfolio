@@ -1,0 +1,43 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "name": "PrettyStyle",
+        "description": "PrettyStyle is an E-Commerce inspired in big websites with the objective of bringing a great experience for the simple customer and the service provider who will make their products available on our platform. We have 2 types of users in our platform, the simple and the business, both have the same functionalities but the business has a product management part where it can register and manage its stock. We have a product catalog based on the products registered by the service provider, through which the user can view the products and buy if they are interested in any.",
+        "tecnologies": "Java 8, JSP, Expression Languages, Bootstrap, JQuery, Ajax, MySQL, Git Flow, TomCat",
+        "patterns": "MVC, Services, DAO and Front-Controller-Command.",
+        "github": "https://github.com/JhonatanSK/pretty-style",
+        "site": "",
+        "image": "../../assets/photos/prettystyle/redjohn.jpg",
+        "photos": [
+          {
+            "id": 1,
+            "name": "image 1",
+            "url": ""
+          },
+          {
+            "id": 2,
+            "name": "image 2",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Sua Idade",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus veniam quisquam sint labore. Praesentium cum minima, facere consectetur nisi nulla ipsam excepturi.",
+        "tecnologies": "",
+        "patterns": "",
+        "github": "",
+        "site": "",
+        "image": "../../assets/photos/prettystyle/redjohn.jpg",
+        "photos": [
+          {
+            "id": 1,
+            "name": "",
+            "url": ""
+          }
+        ]
+      }
+    ]
+}
