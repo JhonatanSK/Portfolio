@@ -1,5 +1,9 @@
+.courses{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
 .course__title{
-    /* border-top: 1px solid lightgray; */
     text-align: center;
     padding-top: 5px;
 }
@@ -8,7 +12,7 @@
     color: var(--text-color--blue);
     font-weight: bold;
     font-size: 1.5em;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
 }
 
 .course__name{
@@ -16,7 +20,7 @@
 }
 
 .course__name p{
-    color: #5d5a5a;
+    color: var(--text-color--blue);
     font-size: 1em;
     margin-bottom: 0px;
     padding-top: 18px;
@@ -29,4 +33,13 @@
 .course__description p {
     color: #5d5a5a;
     font-size: 0.9em;
+    text-align: center;
+}
+
+.awards__title{
+    padding-top: 15px;
+    text-align: center;
+    color: var(--text-color--blue);
+    font-weight: bold;
+    font-size: 1.2em;
 }
