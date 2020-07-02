@@ -7,7 +7,7 @@ body{
 .banner{
     background-attachment: fixed;
     /* background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 212, 255, 0) 75% ), url(../../assets/banner/code.png); */
-    background-color: rgba(0, 0, 0, 73%);
+    background-color: #171616;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -26,7 +26,18 @@ body{
 }
 
 .banner__word p{
-    color: #2196F3;
+    color: #fff;
     font-weight: bold;
     font-size: 2em;
+}
+.banner__word p span{
+    color: var(--text-color--blue);
+    font-weight: bold;
+    /* font-size: 2em; */
+}
+
+@media (min-width: 800px){
+    .banner{
+        height: 60vh;
+    }
 }
