@@ -10,7 +10,7 @@
 }
 
 .info-user__photo{
-    border: 1px solid var(--text-color--blue);
+    /* border: 1px solid var(--text-color--blue); */
     height: 150px;
     width: 150px;
     border-radius: 100%;
@@ -28,10 +28,19 @@
 }
 
 .info-user__description{
-    padding-top: 20px;
-    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    /* text-align: center; */
 }
 
 .info-user__description p {
+    color: #5d5a5a;
     font-size: 1.1em;
+}
+
+.info-user__description p span{
+    color: var(--text-color--blue);
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
 }
