@@ -14,55 +14,63 @@ function Services() {
             <div className="services__name">
                 <div className="service">
                     <p className="service__title">Front-End Applications</p>
-                    <Lottie 
-                        options={{
-                            loop: true,
-                            autoplay: true,
-                            animationData: mobileDesktop,
-                            rendererSettings: {
-                                preserveAspectRatio: 'xMidYMid slice',
-                            }
-                        }}
-                        heigth={200}
-                        width={200}
-                    />
+                    <div className="service__gifs">
+                        <Lottie
+                            options={{
+                                loop: true,
+                                autoplay: true,
+                                animationData: mobileDesktop,
+                                rendererSettings: {
+                                    preserveAspectRatio: 'xMidYMid slice',
+                                }
+                            }}
+                            heigth={200}
+                            width={200}
+                        />
+                    </div>
                     <p className="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus veniam quisquam sint labore. Praesentium cum minima, facere consectetur nisi nulla ipsam excepturi. Atque quidem cum deleniti tempore quo possimus.</p>
                 </div>
                 <div className="service">
                     <p className="service__title">Back-End Applications</p>
-                    <Lottie 
-                        options={{
-                            loop: true,
-                            autoplay: true,
-                            animationData: server,
-                            rendererSettings: {
-                                preserveAspectRatio: 'xMidYMid slice',
-                            }
-                        }}
-                        heigth={200}
-                        width={200}
-                    />
+                    <div className="service__gifs">
+                        <Lottie 
+                            options={{
+                                loop: true,
+                                autoplay: true,
+                                animationData: server,
+                                rendererSettings: {
+                                    preserveAspectRatio: 'xMidYMid slice',
+                                }
+                            }}
+                            heigth={200}
+                            width={200}
+                        />
+                    </div>
                     <p className="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus veniam quisquam sint labore. Praesentium cum minima, facere consectetur nisi nulla ipsam excepturi. Atque quidem cum deleniti tempore quo possimus.</p>
                 </div>
                 <div className="service">
                     <p className="service__title">Mobile Applications</p>
-                    <img src={require('../../assets/mobile-gray.gif')} alt="Mobile" />   
+                    <div className="service__gifs">
+                        <img src={require('../../assets/mobile-gray.gif')} alt="Mobile" />   
+                    </div>
                     <p className="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus veniam quisquam sint labore. Praesentium cum minima, facere consectetur nisi nulla ipsam excepturi. Atque quidem cum deleniti tempore quo possimus.</p>
                 </div>
                 <div className="service">
                     <p className="service__title">Chatbots</p>
-                    <Lottie 
-                        options={{
-                            loop: true,
-                            autoplay: true,
-                            animationData: mobileDesktop,
-                            rendererSettings: {
-                                preserveAspectRatio: 'xMidYMid slice',
-                            }
-                        }}
-                        heigth={200}
-                        width={200}
-                    />
+                    <div className="service__gifs">
+                        <Lottie 
+                            options={{
+                                loop: true,
+                                autoplay: true,
+                                animationData: mobileDesktop,
+                                rendererSettings: {
+                                    preserveAspectRatio: 'xMidYMid slice',
+                                }
+                            }}
+                            heigth={200}
+                            width={200}
+                        />
+                    </div>
                     <p className="service__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus veniam quisquam sint labore. Praesentium cum minima, facere consectetur nisi nulla ipsam excepturi. Atque quidem cum deleniti tempore quo possimus.</p>
                 </div>
             </div>
