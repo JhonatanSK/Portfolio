@@ -1,6 +1,7 @@
 .project{
     background-color: var(--background-color--light);
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
+    padding: 0px 15px 10px 15px;
 }
 
 .project__title{
@@ -15,12 +16,15 @@
 }
 
 .project__description{
-    padding: 0.5px;
-    text-align: center;
+    padding: 0.5px 0px;
+    /* text-align: center; */
 }
 
 .project__description p {
     font-size: 1.1em;
+    color: #5d5a5a;
+    margin-top: 0px;
+
 }
 
 .project__images{
@@ -35,7 +39,7 @@
 
 .project__imgs{
     display: flex;
-    padding: 0px 10px;
+    padding: 0px;
 }
 
 .project__img{
@@ -43,4 +47,19 @@
     height: 120px;
     width: 220px;
     margin: 0px 20px 30px 0px;
+}
+
+.project__info-text span, .project__info-text a{
+    color: var(--text-color--blue);
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.project__info .project__info-text{
+    color: #5d5a5a;
+    font-size: 1em;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    margin-top: 0px;
 }
